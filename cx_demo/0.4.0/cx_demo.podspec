@@ -34,6 +34,8 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Image_Browser' do |ss|
     ss.source_files = 'cx_demo/Classes/Image_Browser/**/*'
+    # ss.dependency 'SDWebImage'
+    # , '~> 3.0'
   end
   
   s.subspec 'YSLog' do |ss|
